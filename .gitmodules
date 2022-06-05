@@ -1,0 +1,3 @@
+[submodule "blog.robnarok.de/themes/m10c"]
+	path = blog.robnarok.de/themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
