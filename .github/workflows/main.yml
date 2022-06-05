@@ -1,9 +1,9 @@
 name: CI
 on: push
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    steps:
+ deploy:
+   runs-on: [self-hosted, linux, ARM64]
+   steps:
       - name: Git checkout
         uses: actions/checkout@v2
 
