@@ -1,0 +1,36 @@
+baseURL: "https://blog.robnarok.de"
+languageCode: "de-de"
+title: "blog.robnarok.de"
+paginate: 5
+theme: m10c
+params:
+    author: "Robnarok"
+    description: "Irgendso ein Typ, der jetzt einen Blog im Internet hat"
+    menu_item_separator: "/"
+    avatar: "picture.jpg"
+    social:
+      - icon: "github"
+        name: "Mein Github"
+        url: "https://github.com/robnarok"
+    style:
+        darkestColor: '#022e39'
+        darkColor: '#044855'
+        lightColor: '#f5e3e0'
+        lightestColor: '#f5f5f5'
+        primaryColor: '#2986CC'
+
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 50
+    - identifier: suche
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20

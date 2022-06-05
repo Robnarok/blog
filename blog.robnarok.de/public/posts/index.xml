@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on blog.robnarok.de</title>
+    <link>https://blog.robnarok.de/posts/</link>
+    <description>Recent content in Posts on blog.robnarok.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sat, 04 Jun 2022 23:41:10 +0200</lastBuildDate><atom:link href="https://blog.robnarok.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Themes</title>
+      <link>https://blog.robnarok.de/posts/themes/</link>
+      <pubDate>Sat, 04 Jun 2022 23:41:10 +0200</pubDate>
+      
+      <guid>https://blog.robnarok.de/posts/themes/</guid>
+      <description>Neues Theme, neuer Post Direkt doch schon wieder ein Ahoy. Ich hab das Theme geändert. Das andere war zwar schon extrem cool, hatte aber wirklich sehr viele Features, wofür ich gerade keine Zeit oder Energie hatte, alle zu konfigurieren. Deshalb fange ich jetzt mit was leichterem an. Ein Theme, wo direkt dran steht, dass es irgendwie minimaler ist! Ich bin gespannt, welche Features ich wirklich vermissen werde</description>
+    </item>
+    
+    <item>
+      <title>Firstpost</title>
+      <link>https://blog.robnarok.de/posts/firstpost/</link>
+      <pubDate>Sat, 04 Jun 2022 20:30:49 +0200</pubDate>
+      
+      <guid>https://blog.robnarok.de/posts/firstpost/</guid>
+      <description>Wilkommen auf meinem Blog! Heyho! Irgendwie hast du meinen Blog gefunden. Vielleicht hab ich den Link irgendwem geteilt oder wie auch immer.
+Warum ich jetzt einen Blog habe ? Eigentlich wollte ich mich nur mit dem Tool ein bisschen auseinander setzen. Static Side Generators sind ja aktuell echt im Trend und eine gute alternative zur Wordpressseite. Gibt wohl ganz viele Vorteile - und noch mehr als Vorteile unterschiedliche Generatoren, Themes und möglichkeiten Dinge zu basteln.</description>
+    </item>
+    
+  </channel>
+</rss>
