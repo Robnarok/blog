@@ -2,7 +2,7 @@ name: CI
 on: push
 jobs:
  deploy:
-   runs-on: [self-hosted, linux, ARM64]
+   runs-on: [self-hosted, linux]
    steps:
       - name: Git checkout
         uses: actions/checkout@v2
