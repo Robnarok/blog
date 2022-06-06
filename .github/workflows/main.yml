@@ -39,4 +39,4 @@ jobs:
          KEY: ${{ secrets.SSHKEY }}
         with:
          source: "./public"
-         target: "/opt/website/public"
+         target: "/opt/website/."
