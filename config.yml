@@ -8,6 +8,7 @@ params:
     description: "Irgendso ein Typ, der jetzt einen Blog im Internet hat"
     menu_item_separator: "/"
     avatar: "picture.jpg"
+    favicon: "favicon.icon"
     social:
       - icon: "github"
         name: "Mein Github"
@@ -18,18 +19,12 @@ params:
         lightColor: '#f5e3e0'
         lightestColor: '#f5f5f5'
         primaryColor: '#2986CC'
-
-
 menu:
   main:
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 50
-    - identifier: suche
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: posts
       name: Posts
       url: /posts/
