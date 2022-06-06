@@ -8,7 +8,6 @@ params:
     description: "Irgendso ein Typ, der jetzt einen Blog im Internet hat"
     menu_item_separator: "/"
     avatar: "picture.jpg"
-    favicon: "favicon.icon"
     social:
       - icon: "github"
         name: "Mein Github"
