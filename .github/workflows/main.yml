@@ -2,7 +2,7 @@ name: CI
 on: push
 jobs:
  deploy:
-   runs-on: ubuntu:latest
+   runs-on: ubuntu-latest
    steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -24,19 +24,19 @@ jobs:
       - name: Clear old static files
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          USERNAME: ${{ secrets.USERNAME }}
-          PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.SSHKEY }}
-          script: ls
+          host: ${{ HOST.HOST }}
+          USERNAME: ${{ HOST.USERNAME }}
+          PORT: ${{ HOST.PORT }}
+          KEY: ${{ HOST.SSHKEY }}
+          script: rm /opt/website
         
       - name: Copy new static files
         uses: appleboy/scp-action@master
         env:
-         HOST: ${{ secrets.HOST }}
-         USERNAME: ${{ secrets.USERNAME }}
-         PORT: ${{ secrets.PORT }}
-         KEY: ${{ secrets.SSHKEY }}
+         HOST: ${{ HOST.HOST }}
+         USERNAME: ${{ HOST.USERNAME }}
+         PORT: ${{ HOST.PORT }}
+         KEY: ${{ HOST.SSHKEY }}
         with:
          source: ".public"
          target: "/opt/website"
