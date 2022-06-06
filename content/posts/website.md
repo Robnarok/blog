@@ -26,9 +26,9 @@ schreiben rein.
 Ich hab vorher nur mal am Rande von Jekyll gehört .. Und mit
 gehört meine ich das ganze in dem Footer von irgendeinen Blog gelesen zu haben
 und dann etwas weiter recherchiert habe und festgestellt habe, dass ich die Idee
-Markdown Dokumente einfach in coole Webseiten zu verwandeln. Aber das ganze hatte
-in dem Moment nur geschafft, dass ich ein Bookmark gesetzt habe und das ganze
-dann irgendwann fast vergessen habe.
+Markdown Dokumente einfach in coole Webseiten zu verwandeln echt gut finde.
+Aber das ganze hatte in dem Moment nur geschafft, dass ich ein Bookmark gesetzt
+habe und das ganze dann irgendwann fast vergessen habe.
 
 Also hab ich direkt am folgetag direkt mal nach Static Side Generators geschaut
 und mich ein bisschen eingelesen. Und dabei bin ich noch über 1-2 Sachen
@@ -68,12 +68,14 @@ gehabt.. Am Ende bin ich dann aber auf .yaml umgestiegen - und hab die "default"
 Config genommen und etwas auseinandergenommen.. Irgenwie war ich dann aber doch
 mit dem Ergebnis nicht so zufrieden - auch wenn die Seite echt super aussah und
 ein paar echt coole Features drin hatte:
+
 - RSS Feat Link bei den Kategorien,
 - Es gab eine Suche, die man einbauen konnte
 - Vermutlich noch mehr, was ich jetzt gerade vergesse.
+
 [Hier nochmal der Link zu dem Theme](https://themes.gohugo.io/themes/hugo-papermod/)
 
-Mir war das für das erste aber zuviel. Ich bin dann nochmal durch die Themes
+Mir war das für das erste aber zu viel. Ich bin dann nochmal durch die Themes
 durchgescrollt und hab mir was "leichteres" gesucht. Am Ende wurde es dann
 [m10c](https://themes.gohugo.io/themes/hugo-theme-m10c/)
 Das war um einiges einfacher. Es gibt letzten Endes 5 Parameter, die man in den
@@ -96,9 +98,9 @@ dem Server dann zu schrieben ist im Prinzip machbar, aber noch nicht perfekt.
 #### Github
 
 Also hab ich ein Github Repo für meine Seite erstellt und da den kompletten
-Kontent reingehauen. Sprich für das Deployen konnte ich dann lokal editieren.
-Und einfach per `git pull` den Content aktualisieren.. Aber sowas ist dann
-natürlich mehraufwand. 
+Content reingehauen. Sprich für das Deployen konnte ich dann lokal editieren.
+Und einfach per `git pull` den Content aktualisieren.. Aber so etwas ist dann
+natürlich mehraufwand.
 
 #### Github Actions - der Selfhosted Runner
 
@@ -131,14 +133,14 @@ das so vielleicht doch eine okayishe Practice war.
 
 Das was ich jetzt am Ende habe ist ein Workflow, der einfach einen Cloud Runner
 verwendet und dann via ssh auf meinen Server erst aufräumt, dann neu deployed.
-Dafür hab ich natürlich einen extra User erstellt und die Credencials als
+Dafür hab ich natürlich einen extra User erstellt und die Zugangsdaten als
 Repository Secrete hinzugefügt.. Und hoffe, dass das so wirklich secure ist. Ich
 bin der einzige Contributer im Repo und sonst darf auch niemand was machen. Die
 Action triggert nur, wenn etwas im Main gepushed wird... Vielleicht fällt mir
 irgendwann was besseres ein. Aber damit komme ich besser klar, als mit dem
 eigenen Runner.
 
-Hier ist übrigens das aktuelle Workflow.yaml aus Github. Ich nehm Kritik immer
+Hier ist übrigens das aktuelle Workflow.yaml aus Github. Ich nehme Kritik immer
 gerne an (Falls den Blog hier wirklich jemals jemand liest)
 
 ``` yaml
