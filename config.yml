@@ -1,30 +1,30 @@
 baseURL: "https://blog.robnarok.de"
-languageCode: "de-de"
+languageCode: "de"
 title: "blog.robnarok.de"
 paginate: 5
-theme: m10c
+theme: gokarna
+enableRobotsText: true
 params:
-    author: "Robnarok"
-    description: "Irgendso ein Typ, der jetzt einen Blog im Internet hat"
-    menu_item_separator: "/"
-    avatar: "picture.jpg"
-    social:
-      - icon: "github"
-        name: "Mein Github"
-        url: "https://github.com/robnarok"
-    style:
-        darkestColor: '#2e3440'
-        darkColor: '#4c566a'
-        lightColor: '#d8dee9'
-        lightestColor: '#eceff4'
-        primaryColor: '#bf616a'
+  avatarURL: 'picture.jpg'
+  avatarSize: ''
+  description: 'robnarok'
+  accentColor: '#FF4D4D'
+  customHeadHTML: ''
+  metaKeywords:
+    - blog
+    - hugo
+  showPostsOnHomePage: 'recent'
+  footer: 'Eigentlich hab ich nichts zu sagen. Aber das ist okay'
 menu:
   main:
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 50
+      weight: 2
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 20
+      weight: 3
+    - identifier: github
+      url: 'https://github.com'
+      weight: 3
