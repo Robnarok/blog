@@ -17,7 +17,7 @@ params:
         darkColor: '#4c566a'
         lightColor: '#d8dee9'
         lightestColor: '#eceff4'
-        primaryColor: '#5e81ac'
+        primaryColor: '#bf616a'
 menu:
   main:
     - identifier: tags
