@@ -1,6 +1,7 @@
 ---
 title: "Firstpost"
 date: 2022-06-04T20:30:49+02:00
+type: "post"
 tags: ['meta']
 author: ['Robnarok']
 draft: false

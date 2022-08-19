@@ -2,6 +2,7 @@
 title: "Website"
 date: 2022-06-06T14:31:34+02:00
 tags: ['tech','linux','CI/CD','Webseite']
+type: "post"
 author: ['Robnarok']
 draft: false
 showtoc: true

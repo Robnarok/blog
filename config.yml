@@ -5,7 +5,7 @@ paginate: 5
 theme: gokarna
 enableRobotsText: true
 params:
-  avatarURL: 'picture.jpg'
+  avatarURL: 'https://blog.robnarok.de/picture.jpg'
   avatarSize: ''
   description: 'robnarok'
   accentColor: '#FF4D4D'

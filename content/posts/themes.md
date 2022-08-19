@@ -1,5 +1,6 @@
 ---
 title: "Themes"
+type: "post"
 date: 2022-06-04T23:41:10+02:00
 tags: ['meta']
 author: ['Robnarok']
