@@ -19,7 +19,7 @@ jobs:
           hugo-version: "0.93.3"
 
       - name: Build
-        run: hugo -D
+        run: hugo -D --minify
         
       - name: Clean old static files
         uses: appleboy/ssh-action@master
