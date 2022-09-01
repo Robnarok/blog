@@ -9,4 +9,4 @@ steps:
   - echo hello
   - echo world
   - echo blog
-  - ls
+  - echo "Last Test for the Pipeline today"
