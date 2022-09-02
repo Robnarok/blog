@@ -3,7 +3,8 @@ type: docker
 name: default
 
 steps:
-  - name: create-docker
-    image: klakegg/hugo:latest
+  - name: create
+    image: earthly/earthly
     commands:
-      - hugo -D
+      - git submodule update --init --recursive
+      - earthly +run

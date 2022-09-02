@@ -5,16 +5,16 @@ paginate: 5
 theme: gokarna
 enableRobotsText: true
 params:
-  avatarURL: '/picture.jpg'
-  avatarSize: ''
-  description: 'robnarok'
-  accentColor: '#FF4D4D'
-  customHeadHTML: ''
+  avatarURL: "/picture.jpg"
+  avatarSize: ""
+  description: "robnarok"
+  accentColor: "#FF4D4D"
+  customHeadHTML: ""
   metaKeywords:
     - blog
     - hugo
-  showPostsOnHomePage: 'recent'
-  footer: 'Eigentlich hab ich nichts zu sagen. Aber das ist okay'
+  showPostsOnHomePage: "recent"
+  footer: "Eigentlich hab ich nichts zu sagen. Aber das ist okay"
 menu:
   main:
     - identifier: tags
@@ -26,5 +26,5 @@ menu:
       url: /posts/
       weight: 3
     - identifier: github
-      url: 'https://github.com'
+      url: "https://github.com"
       weight: 3
