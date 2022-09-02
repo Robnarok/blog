@@ -6,6 +6,5 @@ steps:
   - name: create
     image: earthly/earthly
     commands:
-      - /usr/bin/earthly-entrypoint.sh
       - git submodule update --init --recursive
-      - earthly +run
+      - /usr/bin/earthly-entrypoint.sh earthly +run
