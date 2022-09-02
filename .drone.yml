@@ -1,11 +1,12 @@
 kind: pipeline
-type: docker
+type: exec
 name: default
+platform:
+  os: linux
+  arch: amd64
 
 steps:
-  - name: create
-    image: earthly/earthly:v0.6.20
-    privileged: true
+  - name: test
     commands:
-      - git submodule update --init --recursive
-      - earthly +run
+      - docker-compose --file /opt/website/docker-compose.yaml up --force-recreate --build -d
+      - docker image prune -f
