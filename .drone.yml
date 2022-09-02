@@ -8,5 +8,7 @@ platform:
 steps:
   - name: test
     commands:
+      - docker-compose --file /opt/website/docker-compose.yaml down
+      - docker-compose --file /opt/website/docker-compose.yaml pull
       - docker-compose --file /opt/website/docker-compose.yaml up --force-recreate --build -d
       - docker image prune -f

@@ -8,4 +8,12 @@ draft: false
 showtoc: false
 ---
 
-Jetzt sollte das aber passen, oder ?
+## Der neue Ablauf!
+
+Ich habe ganz viel geändert.. Hier schonmal die Stichpunkte:
+
+- Selbstgehostete Gitea Instanz ... Viel Cooler als Github!
+- Selbstgehostete CICD Lösung
+- Dockerized!
+
+Bleibt gespannt!
