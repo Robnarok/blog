@@ -5,6 +5,7 @@ name: default
 steps:
   - name: create
     image: earthly/earthly
+    privileged: true
     commands:
       - git submodule update --init --recursive
-      - /usr/bin/earthly-entrypoint.sh earthly +run
+      - earthly +run
