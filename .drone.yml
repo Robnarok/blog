@@ -4,7 +4,7 @@ name: default
 
 steps:
   - name: create
-    image: earthly/earthly
+    image: earthly/buildkitd:v0.6.20
     privileged: true
     commands:
       - git submodule update --init --recursive
