@@ -7,11 +7,16 @@ jobs:
   Build-Docker-Image-Test:
     runs-on: ubuntu-latest
     steps:
-      - id: docker-publish
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+      - name: docker-publish
         uses: bitovi/github-actions-docker-publish@main
         with:
           docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
           docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
           sha: true
+          checkout: false
           org_name: robnarok
           repo_name: blog
